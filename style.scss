@@ -354,7 +354,7 @@ a {
     display: inline-block;
     margin-bottom: 40px;
     font-size: 40px;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
 
     span {
       background: linear-gradient(transparent 53%, $greige 0%);
@@ -574,11 +574,15 @@ a {
   body {
     font-size: 14px;
     font-size: 0.875rem;
-  }
+  } 
 
   .l-header {
     height: 74px;
     padding: 0 15px;
+
+    a {
+      vertical-align: super !important;
+    }
   }
 
   /*-----------*/

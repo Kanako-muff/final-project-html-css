@@ -321,7 +321,7 @@ a:hover {
   display: inline-block;
   margin-bottom: 40px;
   font-size: 40px;
-  font-size: 2.5rem;
+  font-size: 2.1rem;
 }
 .p-message .p-message__heading span {
   background: linear-gradient(transparent 53%, #E2DDD9 0%);
@@ -530,6 +530,9 @@ a:hover {
   .l-header {
     height: 74px;
     padding: 0 15px;
+  }
+  .l-header a {
+    vertical-align: super !important;
   }
   /*-----------*/
   /* humberger */
